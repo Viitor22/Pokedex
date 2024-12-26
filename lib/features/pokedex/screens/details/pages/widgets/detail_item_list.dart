@@ -25,7 +25,7 @@ class DetailItemList extends StatelessWidget {
               pokemon.image,
               width: value,
               fit: BoxFit.contain,
-              color: diferente ? Colors.black.withOpacity(0.4) : null,
+              color: diferente ? Colors.black.withValues(alpha: 0.4) : null,
             );
           },
         ),

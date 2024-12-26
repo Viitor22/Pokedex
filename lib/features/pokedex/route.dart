@@ -31,6 +31,7 @@ class PokedexRoute extends StatelessWidget {
             );
           });
         }
+        return null;
       },
     );
   }

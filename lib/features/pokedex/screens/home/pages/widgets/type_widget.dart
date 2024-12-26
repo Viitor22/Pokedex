@@ -10,7 +10,7 @@ class TypeWidget extends StatelessWidget {
       padding: const EdgeInsets.only(bottom: 4.0),
       child: Container(
         decoration: BoxDecoration(
-          color: Colors.white.withOpacity(0.2),
+          color: Colors.white.withValues(alpha: 0.2),
           borderRadius: BorderRadius.circular(16)
         ),
         child: Padding(
